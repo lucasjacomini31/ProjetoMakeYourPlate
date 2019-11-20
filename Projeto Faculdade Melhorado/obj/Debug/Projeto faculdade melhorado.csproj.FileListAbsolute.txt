@@ -1,0 +1,53 @@
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe.config
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.pdb
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csprojAssemblyReference.cache
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Form1.resources
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Properties.Resources.resources
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.GenerateResource.cache
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CoreCompileInputs.cache
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.exe
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.pdb
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.make.resources
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\MySql.Data.dll
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\Google.Protobuf.dll
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\Renci.SshNet.dll
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\bin\Debug\MySql.Data.xml
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CopyComplete
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadIngredientes.resources
+C:\Users\luqui\source\repos\Projeto faculdade melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadPratos.resources
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe.config
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.pdb
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Google.Protobuf.dll
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Renci.SshNet.dll
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\MySql.Data.xml
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csprojAssemblyReference.cache
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadIngredientes.resources
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadPratos.resources
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Form1.resources
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.make.resources
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Properties.Resources.resources
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.GenerateResource.cache
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CopyComplete
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.exe
+C:\Users\Cleber\Desktop\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.pdb
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe.config
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.pdb
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Google.Protobuf.dll
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\BouncyCastle.Crypto.dll
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\Renci.SshNet.dll
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\bin\Debug\MySql.Data.xml
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csprojAssemblyReference.cache
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadIngredientes.resources
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadPratos.resources
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Form1.resources
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.make.resources
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Properties.Resources.resources
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.GenerateResource.cache
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CopyComplete
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.exe
+D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.pdb
