@@ -10,25 +10,15 @@ using System.Data.SqlClient;
 
 namespace Projeto_faculdade_melhorado
 {
-    public class metodos
+    public class Conexao
     {
         public string conectaBD()
         {
 
-            return "server=mysql380.umbler.com;port=41890;User Id=lucasjacomini;database=makeyourplate;password=X1n794c4";
+            return "server=localhost;port=3306;User Id=root;database=makeyourplate;password=admin";
 
         }
-    }
-
-
-
-       
-        
-
-        
-
-       
-
+    }  
 }
 
    

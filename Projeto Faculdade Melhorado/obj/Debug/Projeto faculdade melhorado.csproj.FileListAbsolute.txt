@@ -51,3 +51,41 @@ D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Proje
 D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CopyComplete
 D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.exe
 D:\Teste\Projeto Faculdade Melhorado\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.pdb
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe.config
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.pdb
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Google.Protobuf.dll
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\BouncyCastle.Crypto.dll
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Renci.SshNet.dll
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\MySql.Data.xml
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.AssemblyReference.cache
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.SuggestedBindingRedirects.cache
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadIngredientes.resources
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadPratos.resources
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Form1.resources
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.make.resources
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Properties.Resources.resources
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.GenerateResource.cache
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CoreCompileInputs.cache
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CopyComplete
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.exe
+D:\Projetos\C#\MakeYourPlate\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.pdb
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe.config
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.exe
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Projeto faculdade melhorado.pdb
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Google.Protobuf.dll
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\BouncyCastle.Crypto.dll
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\Renci.SshNet.dll
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\bin\Debug\MySql.Data.xml
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.AssemblyReference.cache
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.SuggestedBindingRedirects.cache
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadIngredientes.resources
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.CadPratos.resources
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Properties.Resources.resources
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.GenerateResource.cache
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CoreCompileInputs.cache
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.csproj.CopyComplete
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.exe
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto faculdade melhorado.pdb
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.Menu.resources
+D:\Projetos\C#\ProjetoMakeYourPlate\Projeto faculdade melhorado\obj\Debug\Projeto_faculdade_melhorado.editGridMenu.resources

@@ -1,6 +1,6 @@
 ﻿namespace Projeto_faculdade_melhorado
 {
-    partial class Form1
+    partial class Menu
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -66,7 +66,6 @@
             this.PainelTopo.Name = "PainelTopo";
             this.PainelTopo.Size = new System.Drawing.Size(1100, 40);
             this.PainelTopo.TabIndex = 0;
-            this.PainelTopo.Paint += new System.Windows.Forms.PaintEventHandler(this.PainelTopo_Paint);
             this.PainelTopo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.PainelTopo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.form1_MouseMove);
             this.PainelTopo.MouseUp += new System.Windows.Forms.MouseEventHandler(this.form1_MouseUP);
@@ -249,7 +248,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -286,7 +284,7 @@
             this.timermostrar.Interval = 10;
             this.timermostrar.Tick += new System.EventHandler(this.Timermostrar_Tick);
             // 
-            // Form1
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -296,10 +294,9 @@
             this.Controls.Add(this.PainelTopo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.PainelTopo.ResumeLayout(false);
             this.PainelMenu.ResumeLayout(false);
             this.panel5.ResumeLayout(false);

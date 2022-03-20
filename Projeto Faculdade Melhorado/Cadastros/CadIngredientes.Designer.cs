@@ -52,7 +52,6 @@
             this.label1.Size = new System.Drawing.Size(18, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // label3
             // 
@@ -62,7 +61,6 @@
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Nome";
-            this.label3.Click += new System.EventHandler(this.Label3_Click);
             // 
             // txtid
             // 
@@ -72,7 +70,6 @@
             this.txtid.Name = "txtid";
             this.txtid.Size = new System.Drawing.Size(278, 20);
             this.txtid.TabIndex = 3;
-            this.txtid.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // txtnome
             // 
@@ -81,7 +78,6 @@
             this.txtnome.Name = "txtnome";
             this.txtnome.Size = new System.Drawing.Size(278, 20);
             this.txtnome.TabIndex = 3;
-            this.txtnome.TextChanged += new System.EventHandler(this.Txtnome_TextChanged);
             // 
             // btninserir
             // 
@@ -104,7 +100,6 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Cadastro de Ingredientes";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // txtbuscar
             // 
@@ -175,7 +170,6 @@
             this.Gridingredientes.Name = "Gridingredientes";
             this.Gridingredientes.Size = new System.Drawing.Size(364, 395);
             this.Gridingredientes.TabIndex = 7;
-            this.Gridingredientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Gridingredientes_CellContentClick);
             // 
             // CadIngredientes
             // 
@@ -199,7 +193,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CadIngredientes";
             this.Text = "CadIngredientes";
-            this.Load += new System.EventHandler(this.atualiza);
             ((System.ComponentModel.ISupportInitialize)(this.Gridingredientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

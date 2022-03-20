@@ -48,44 +48,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadIngredientes.cs">
+    <Compile Include="Cadastros\CadIngredientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadIngredientes.Designer.cs">
+    <Compile Include="Cadastros\CadIngredientes.Designer.cs">
       <DependentUpon>CadIngredientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadPratos.cs">
+    <Compile Include="Cadastros\CadPratos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadPratos.Designer.cs">
+    <Compile Include="Cadastros\CadPratos.Designer.cs">
       <DependentUpon>CadPratos.cs</DependentUpon>
     </Compile>
-    <Compile Include="metodos.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Classes\Entidades\Conexao.cs" />
+    <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="make.cs">
+    <Compile Include="editGridMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="make.Designer.cs">
-      <DependentUpon>make.cs</DependentUpon>
+    <Compile Include="editGridMenu.Designer.cs">
+      <DependentUpon>editGridMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CadIngredientes.resx">
+    <EmbeddedResource Include="Cadastros\CadIngredientes.resx">
       <DependentUpon>CadIngredientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadPratos.resx">
+    <EmbeddedResource Include="Cadastros\CadPratos.resx">
       <DependentUpon>CadPratos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="make.resx">
-      <DependentUpon>make.cs</DependentUpon>
+    <EmbeddedResource Include="editGridMenu.resx">
+      <DependentUpon>editGridMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

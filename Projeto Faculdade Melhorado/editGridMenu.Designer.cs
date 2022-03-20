@@ -1,6 +1,6 @@
 ﻿namespace Projeto_faculdade_melhorado
 {
-    partial class make
+    partial class editGridMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -88,8 +88,6 @@
             this.cboingredientes.Size = new System.Drawing.Size(146, 21);
             this.cboingredientes.Sorted = true;
             this.cboingredientes.TabIndex = 1;
-            this.cboingredientes.SelectedIndexChanged += new System.EventHandler(this.ComboBox1_SelectedIndexChanged);
-            this.cboingredientes.Click += new System.EventHandler(this.Cboingredientes_Click);
             // 
             // panel1
             // 

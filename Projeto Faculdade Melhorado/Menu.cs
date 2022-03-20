@@ -14,16 +14,15 @@ namespace Projeto_faculdade_melhorado
 {
     
     
-    public partial class Form1 : Form
+    public partial class Menu : Form
     {
-        make formmake = new make();
+        editGridMenu formmake = new editGridMenu();
         CadIngredientes forcad = new CadIngredientes();
         CadPratos forcadprato = new CadPratos();
         bool mover = false;
         Point posicao_inicial;
         
-
-        public Form1()
+        public Menu()
         {
             
             InitializeComponent();
@@ -32,17 +31,12 @@ namespace Projeto_faculdade_melhorado
         private void Btnfechar_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-       
-      
+        }    
 
         private void Btnminimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-      
 
         private void Timeroculta_Tick(object sender, EventArgs e)
         {
@@ -55,7 +49,6 @@ namespace Projeto_faculdade_melhorado
                 this.PainelMenu.Width = PainelMenu.Width - 20;
             }
         }
-
         private void Timermostrar_Tick(object sender, EventArgs e)
         {
             if (PainelMenu.Width >= 220)
@@ -80,11 +73,6 @@ namespace Projeto_faculdade_melhorado
             }
         }
 
-        private void PictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Button1_Click(object sender, EventArgs e)
         {
             forcad.Visible = false;
@@ -93,29 +81,11 @@ namespace Projeto_faculdade_melhorado
 
             if (formmake.Visible == false)
             {
-
                 formmake.TopLevel = false;
                 formmake.Parent = painelcentro;
                 painelcentro.Controls.Add(formmake);
                 formmake.Visible = true;
-                
-
             }
-           
-
-
-
-        }
-
-
-        private void PainelTopo_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void Form1_MouseDown(object sender, MouseEventArgs e)
@@ -128,11 +98,6 @@ namespace Projeto_faculdade_melhorado
             mover = false;
         }
 
-        private void PainelTopo_MouseUP(object sender, MouseEventArgs e)
-        {
-            
-        }
-
         private void form1_MouseMove(object sender, MouseEventArgs e)
         {
             if (mover)
@@ -140,10 +105,6 @@ namespace Projeto_faculdade_melhorado
                 Point novo = PointToScreen(e.Location);
                 Location = new Point(novo.X - posicao_inicial.X, novo.Y - posicao_inicial.Y);
             }
-        }
-        private void PainelTopo_MouseMove(object sender, MouseEventArgs e)
-        {
-            
         }
 
         private void Btningred_Click(object sender, EventArgs e)
@@ -174,12 +135,6 @@ namespace Projeto_faculdade_melhorado
 
 
             }
-            
-
-
-            
-
-
         }
 
         private void Button3_Click(object sender, EventArgs e)

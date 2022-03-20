@@ -14,12 +14,12 @@ using System.IO;
 namespace Projeto_faculdade_melhorado
 {
     
-    public partial class make : Form
+    public partial class editGridMenu : Form
     {
         string index;
-        metodos objmetodo = new metodos();
+        Conexao objmetodo = new Conexao();
 
-        public make()
+        public editGridMenu()
         {
             InitializeComponent();
         }
@@ -50,22 +50,8 @@ namespace Projeto_faculdade_melhorado
         }
         private void Make_Load(object sender, EventArgs e)
         {
-
             atualiza();
-           
-
-
-        }
-
-        
-
-        public void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
-          
-        }
-
-       
+        }     
 
         private void Btnbuscar_Click(object sender, EventArgs e)
         {
@@ -76,7 +62,6 @@ namespace Projeto_faculdade_melhorado
             string item3;
             string item4;
              
-
             if (Lsbingredientes.Items.Count == 1) //testar se a list esta vazia
             {
                 item1 = Lsbingredientes.Items[0].ToString(); // pegar o primeiro item da list de um determinado index
@@ -113,8 +98,6 @@ namespace Projeto_faculdade_melhorado
                 item4 = null;
             }
 
-
-
             MySqlConnection objcon = new MySqlConnection(objmetodo.conectaBD());
 
             try
@@ -122,23 +105,16 @@ namespace Projeto_faculdade_melhorado
                 //abrir conexao
                 objcon.Open();
 
-                
                 DataTable dtTabelas = new DataTable();
                 
                 string concatena = Convert.ToString(cboingredientes.Text);
                 string select = string.Concat("select nome,preco, modopreparo from pratos where modopreparo like '%" + concatena + "%' and modopreparo like '%"+ item1 + "%' and modopreparo like '%" + item2 + "%' and modopreparo like '%" + item3 + "%' and modopreparo like '%" + item4 + "%'"); //buscar no banco
                 
                 MySqlDataAdapter da = new MySqlDataAdapter(select, objcon);
-
                 
-                
-
                 da.Fill(dtTabelas);
                 Gridbuscar.DataSource = dtTabelas;
                 Gridbuscar.Sort(Gridbuscar.Columns["nome"], ListSortDirection.Ascending);
-                
-
-
 
                 Gridbuscar.Columns[0].HeaderText = "Nome do Prato"; // definir o nome da coluna
                 Gridbuscar.Columns[0].Width = 200; // definir o tamanho da coluna                
@@ -146,26 +122,18 @@ namespace Projeto_faculdade_melhorado
                 Gridbuscar.Columns[1].Width = 120; // definir o tamanho da coluna
                 Gridbuscar.Columns[2].HeaderText = "Ingredientes contidos no Prato"; // definir o nome da coluna
                 Gridbuscar.Columns[2].Width = 200; // definir o tamanho da coluna
-
-            }
-                      
-            catch (Exception)
-            {
+            }catch (Exception){
                 System.Windows.Forms.MessageBox.Show("Sem conexão com o banco de dados ");
             }
-            finally
-            {
+            finally{
                 objcon.Close();   
             }
-            
-
         }
 
         private void Btnadicionar_Click(object sender, EventArgs e)
         {
             string contador =  Lsbingredientes.Items.Count.ToString(); // pega a soma de itens da lista
-            
-
+           
             if (Convert.ToInt32(contador) < 4) // teste para limitar campos adicionados na listbox
             {
                 if (Lsbingredientes.Items.Contains(cboingredientes.Text)) // teste para ver se o ingredinte ja existe na lista
@@ -177,20 +145,14 @@ namespace Projeto_faculdade_melhorado
                     Lsbingredientes.Items.Add(cboingredientes.Text.ToString());  // adiciona itens a lista
                 }
                 
-            }
-            else
+            }else
             {
                 MessageBox.Show("Você pode adicionar apenas 4 ingredientes a lista");
             }
-                        
-            
         }
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
-
-            
-            
             try 
             { 
                 Lsbingredientes.Items.RemoveAt(Convert.ToInt32(index)); 
@@ -203,8 +165,6 @@ namespace Projeto_faculdade_melhorado
             {
                 MessageBox.Show("Contate a um administrador do sistema ocorreu um erro inesperado" );
             }
-            
-
         }
 
         private void Lsbingredientes_SelectedIndexChanged(object sender, EventArgs e)
@@ -215,9 +175,7 @@ namespace Projeto_faculdade_melhorado
         private void Gridbuscar_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             //quando clicar 2 vezes.
-
             paineldetalhes.Visible = true;
-          
 
             lblnome.Text = Gridbuscar.CurrentRow.Cells[0].Value.ToString();
             lblpreco.Text = string.Format("R$ {0:#.###,##}", Gridbuscar.CurrentRow.Cells[1].Value.ToString()); //formatar label para R$
@@ -243,52 +201,26 @@ namespace Projeto_faculdade_melhorado
                 {
                     byte[] imagem = (byte[])(readerimage["imagem"]);
 
-                    
                     if (imagem == null)
                     {
                         pctimagem.Image = null;
-                        
                     }
                     else
                     {
-                        
                         MemoryStream mystream = new MemoryStream(imagem);
-                        
                         pctimagem.Image = System.Drawing.Image.FromStream(mystream);
-                        
-
                     }
                 }
-
-
-            }
-            catch(Exception)
-            {
-
-            }
-            finally
-            {
+            }catch(Exception err){
+                MessageBox.Show(err.ToString());
+            }finally{
                 objcon.Close();
             }
-            
-
-
-        }
-
-        private void Btnprincipal_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void Label1_Click(object sender, EventArgs e)
         {
             paineldetalhes.Visible = false;
-            
-        }
-
-        private void Cboingredientes_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void btnatualizar_Click(object sender, EventArgs e)
@@ -297,11 +229,8 @@ namespace Projeto_faculdade_melhorado
         }
 
         private void btnlimparlista_Click(object sender, EventArgs e)
-        {
-                       
-        Lsbingredientes.Items.Clear();
-                     
-            
+        {         
+            Lsbingredientes.Items.Clear();   
         }
     }
 }

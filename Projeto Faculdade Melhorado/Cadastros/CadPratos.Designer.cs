@@ -177,7 +177,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(401, 487);
             this.panel2.TabIndex = 18;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel2_Paint);
             // 
             // label7
             // 
@@ -252,7 +251,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(479, 487);
             this.panel3.TabIndex = 19;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel3_Paint);
             // 
             // label6
             // 
@@ -276,7 +274,6 @@
             this.Gridingredientes.Name = "Gridingredientes";
             this.Gridingredientes.Size = new System.Drawing.Size(440, 410);
             this.Gridingredientes.TabIndex = 9;
-            this.Gridingredientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Gridpratos_CellContentClick);
             // 
             // CadPratos
             // 
